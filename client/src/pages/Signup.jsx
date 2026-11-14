@@ -22,7 +22,7 @@ export default function Signup() {
 
   const handleSignup = async () => {
     try {
-      const res = await api.post("/auth/signup", formData);
+      const res = await api.post("/api/auth/signup", formData);
 
       alert("Account Created Successfully");
 
